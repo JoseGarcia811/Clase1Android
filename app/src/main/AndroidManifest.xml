@@ -21,7 +21,7 @@
         <activity android:name=".View1Activity"></activity>
         <activity android:name=".View2Activity"></activity>
         <activity android:name=".View3Activity"></activity>
-        <activity android:name=".View4Activity"></activity>
+        <activity android:name=".TableLayoutActivity"></activity>
         <activity android:name=".View5Activity"></activity>
         <activity android:name=".View6Activity"></activity>
     </application>

@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 getView (View3Activity.class);
                 break;
             case R.id.button4 :
-                getView (View4Activity.class);
+                getView (TableLayoutActivity.class);
                 break;
             case R.id.button5 :
                 getView (View5Activity.class);
