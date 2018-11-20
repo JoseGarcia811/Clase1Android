@@ -48,16 +48,14 @@
         </TableRow>
 
         <TableRow
-            style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/tableRow2"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0">
+            android:layout_width="wrap_content"
+            android:layout_height="0dp">
 
 
             <Button
-                style="?android:attr/buttonBarButtonStyle"
                 android:id="@+id/buttontable4"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="120dp"
                 android:layout_height="20dp"
                 android:layout_weight="1"
@@ -67,8 +65,8 @@
 
 
             <Button
-                style="?android:attr/buttonBarButtonStyle"
                 android:id="@+id/clientimaitable5"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dip"
                 android:layout_height="20dp"
                 android:layout_weight="1"
