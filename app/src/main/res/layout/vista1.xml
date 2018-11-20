@@ -3,15 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_dark"
+
     tools:context=".View1Activity">
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="fill_parent"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/notificacion"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_marginBottom="10dp"
 
-        android:text="@string/color_mamey"
-        android:textColor="@android:color/background_light" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/notificaion" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -8,6 +8,6 @@ public class View4Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.vista4);
+        setContentView(R.layout.view4);
     }
 }

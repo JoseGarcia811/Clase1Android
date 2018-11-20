@@ -3,14 +3,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light"
+
     tools:context=".View5Activity">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Color Rosado"
-        android:textColor="@android:color/background_light" />
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:foregroundGravity="fill"
+      >
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+
+
+    </FrameLayout>
 </android.support.constraint.ConstraintLayout>
